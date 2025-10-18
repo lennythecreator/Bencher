@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="charcoal_black">#171717</color>
+    <color name="dark_gray">#333333</color>
+    <color name="off_white">#F5F5F5</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="accent_red">#FF3B30</color>
+
+    <!-- UI Theming -->
+    <color name="background_primary">@color/charcoal_black</color>
+    <color name="background_secondary">@color/dark_gray</color>
+    <color name="text_primary">@color/off_white</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="button_accent">@color/accent_red</color>
+</resources>

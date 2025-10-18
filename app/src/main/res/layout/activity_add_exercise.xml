@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/charcoal_black"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Exercise Session"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/off_white"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exercise Type (e.g. Running)"
+            android:textColor="@color/pure_white"
+            android:textColorHint="@color/off_white"
+            android:backgroundTint="@color/off_white"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duration (minutes)"
+            android:textColor="@color/pure_white"
+            android:textColorHint="@color/off_white"
+            android:backgroundTint="@color/off_white"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etIntensity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Intensity (Low, Medium, High)"
+            android:textColor="@color/pure_white"
+            android:textColorHint="@color/off_white"
+            android:backgroundTint="@color/off_white"
+            android:inputType="text"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Session"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/accent_red"
+            android:textColor="@color/pure_white" />
+    </LinearLayout>
+</ScrollView>
