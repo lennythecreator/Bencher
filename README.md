@@ -1,8 +1,9 @@
-# Android Project 5 - *Bencher*
+# Android Project 6 - *Benchere*
 
-Submitted by: **Bencher**
+Submitted by: **Lenny UWaeme**
 
-**Bencher** is a health metrics app that allows users to track workouts
+**Bencher** is a health metrics app that allows users to track 
+- Exercises and workouts
 
 Time spent: **5** hours spent in total
 
@@ -10,18 +11,14 @@ Time spent: **5** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `Workout duration and intensity`
-- [x] **There is a "create entry" UI that prompts users to make their daily entry**
-- [x] **New entries are saved in a database and then updated in the RecyclerView**
-- [x] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [x] **Use at least 2 Fragments**
+- [x] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [x] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [x] **Create a UI for tracking averages and trends in metrics**
-- [x] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
+- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [ ] **Implement daily notifications to prompt users to fill in their data**
 
 The following **additional** features are implemented:
 
@@ -43,10 +40,10 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-- No challenges
+- Splitting the ui into fragments
 ## License
 
-    Copyright [2025] [Lenny Uwaeme]
+    Copyright [2025 [Lenny uwaeme]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
